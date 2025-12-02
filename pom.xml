@@ -26,9 +26,10 @@
     <dependencies>
         <!-- Spring Boot Web -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-tomcat</artifactId>
+    <scope>provided</scope>
+       </dependency>
 
         <!-- Spring Data JPA -->
         <dependency>
